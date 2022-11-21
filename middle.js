@@ -1,25 +1,3 @@
-const eqArrays = function(arr1,arr2) {
-  let isEqual = true;
-  if (arr1.length !== arr2.length) {
-    return false;
-  }
-  for (let i in arr1) {
-    if (arr1[i] !== arr2[i]) {
-      isEqual = false;
-    }
-  }
-  return isEqual;
-};
-
-const assertArraysEqual = function(actual, expected) {
-  if (eqArrays(actual, expected)) {
-    console.log(`🪀🪀🪀 Assertion Passed ${actual} === ${expected}`);
-  } else {
-    console.log(`👺👺👺 Assertion Failed ${actual} !== ${expected}`);
-  }
-};
-
-
 const middle = function(arr) {
   let middleArray = [];
   //if array length is 1 or 2 then an amepty array is returned
@@ -41,7 +19,4 @@ const middle = function(arr) {
   }
 };
 
-
-//actual = middle([1,2,3,4,5]);
-//expected = [3];
-//assertArraysEqual(actual, expected)
+module.exports = middle;
