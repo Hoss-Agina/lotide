@@ -1,3 +1,3 @@
-const countLetters = require("../countLetters");
+const _ = require("../index");
 
-console.log(countLetters("lighthouse in the house"));
+console.log(_.countLetters("lighthouse in the house"));

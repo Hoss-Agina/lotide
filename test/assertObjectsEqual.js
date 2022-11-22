@@ -1,4 +1,4 @@
-const assertObjectsEqual = require('../assertObjectsEqual')
+const _ = require('../index')
 
 objectOne = {
   name: "Hoss",
@@ -12,4 +12,4 @@ objectTwo = {
   name: "Hoss"
 }
 
-assertObjectsEqual(objectOne, objectTwo);
+_.assertObjectsEqual(objectOne, objectTwo);

@@ -1,5 +1,4 @@
-const assertArraysEqual = require('../assertArraysEqual');
-const letterPositions = require('../letterPositions');
+const _ = require("../index");
 
-console.log(letterPositions("lighthouse in the house"));
-assertArraysEqual(letterPositions("hello").e, [1]);
+console.log(_.letterPositions("lighthouse in the house"));
+_.assertArraysEqual(_.letterPositions("hello").e, [1]);
