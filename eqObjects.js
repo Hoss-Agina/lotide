@@ -4,7 +4,7 @@ const eqObjects = function(object1, object2) {
   let arrOne = Object.keys(object1);
   let arrTwo = Object.keys(object2);
   if (arrOne.length !== arrTwo.length) {
-    return false; 
+    return false;
   } else {
     for (let key of arrOne) {
       if (Array.isArray(object1[key])) {

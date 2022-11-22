@@ -3,7 +3,7 @@ const without = function(source, itemsToRemove) {
   let isElementCommon = false;
 
   for (let i in source) {
-    outputArray.push(source[i])
+    outputArray.push(source[i]);
   }
   
   for (let i = 0; i < outputArray.length; i++) {
@@ -17,7 +17,7 @@ const without = function(source, itemsToRemove) {
         if (outputArray.length > 0) {
           i -= 1;
         }
-      } 
+      }
     }
   }
   return outputArray;

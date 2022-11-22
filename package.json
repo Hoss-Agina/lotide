@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@hoss-agina/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "lotide project by Hoss Agina that has includes some function for making changes to an array and assertions to be used",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,10 @@
     "type": "git",
     "url": "git+https://github.com/Hoss-Agina/lotide.git"
   },
-  "author": "",
+  "author": {
+    "name": "Hoss Agina",
+    "email": "hoss.agina@telus.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Hoss-Agina/lotide/issues"
