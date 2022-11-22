@@ -1,6 +1,6 @@
 {
   "name": "@hoss-agina/lotide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "lotide project by Hoss Agina that has includes some function for making changes to an array and assertions to be used",
   "main": "assertArraysEqual.js",
   "directories": {
