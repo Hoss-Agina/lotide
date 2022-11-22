@@ -13,6 +13,6 @@ _.without(words, ["lighthouse"]); // no need to capture return value for this te
 console.log("words", words);
 _.assertArraysEqual(words, ["hello", "world", "lighthouse"]);
 
-console.log(_.without(["5", "6", "7"], [5, 6, "7"])); 
+console.log(_.without(["5", "6", "7"], [5, 6, "7"]));
 console.log(_.without(["1", "2", "3"], [1,"3", 2]));
 console.log(_.without([1, 2, 3, 4, 5], [1,4]));

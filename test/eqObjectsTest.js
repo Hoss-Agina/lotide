@@ -1,7 +1,7 @@
 const _ = require("../index");
 
 const ab = { a: "1", b: "2" };
-const ba = { b: "2", a: "1" }; 
+const ba = { b: "2", a: "1" };
 _.assertEqual(_.eqObjects(ab, ba), true); // => true
 
 const abc = { a: "1", b: "2", c: "3" };

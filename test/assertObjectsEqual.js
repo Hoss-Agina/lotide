@@ -1,15 +1,15 @@
-const _ = require('../index')
+const _ = require('../index');
 
-objectOne = {
+let objectOne = {
   name: "Hoss",
   age: [34, 33, 32],
   class: "LHL"
-}
+};
 
-objectTwo = {
+let objectTwo = {
   class: "LHL",
   age: [34, 33, 32],
   name: "Hoss"
-}
+};
 
 _.assertObjectsEqual(objectOne, objectTwo);
